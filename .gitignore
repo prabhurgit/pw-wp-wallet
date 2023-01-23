@@ -1,0 +1,44 @@
+/*
+!.gitignore
+
+!wp-content
+wp-content/*
+licenses/*
+
+!wp-content/themes
+wp-content/themes/*
+
+!wp-content/themes/pmd-themes
+
+wp-content/themes/pmd-theme/node_modules/*
+wp-content/themes/pmd-theme/gulp-config.json
+
+!wp-content/mu-plugins
+wp-content/mu-plugins/*
+!wp-content/mu-plugins/network-utilities.php
+
+!wp-content/plugins
+wp-content/plugins/*
+!wp-content/plugins/pmd-utility
+!wp-content/plugins/hd-responsive-lazy-images
+
+# Bower, node etc.
+/bower_components
+npm-debug.log
+node_modules
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Packages
+vendor
+
+# Temp
+tmp/
