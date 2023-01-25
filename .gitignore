@@ -8,7 +8,12 @@ licenses/*
 !wp-content/themes
 wp-content/themes/*
 
-!wp-content/themes/pmd-themes
+!wp-content/themes/pennywallet
+wp-content/themes/pennywallet/inc/*
+
+wp-content/themes/pennywallet/woocommerce/*
+!wp-content/themes/pennywallet/woocommerce/myaccount
+
 
 wp-content/themes/pmd-theme/node_modules/*
 wp-content/themes/pmd-theme/gulp-config.json

@@ -1,0 +1,187 @@
+:root{
+	--pennywallet-font-primary: 'Lato';
+	--pennywallet-font-secondary: 'Poppins';
+
+	--pennywallet-color-primary: #3D0097;
+	
+	--pennywallet-color-accent: #FF007E;
+
+	--pennywallet-color-white: #ffffff;	
+	--pennywallet-color-black: #000000;
+
+	--pennywallet-color-custom-1: #DD4F5A;
+	--pennywallet-color-custom-2: #F5C944;	
+	--pennywallet-color-custom-3: #A4A4A4;
+
+}
+
+body{
+	font-size: 16px;
+	font-family: var( --pennywallet-font-primary ) ;
+}
+ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+.color-white{
+	color: #fff!important;
+}
+.my_wallet_card{
+	color: var( --pennywallet-color-primary );
+}
+
+.pennywallet_primary_button{
+	background-color: var( --pennywallet-color-primary )!important;
+	color: var( --pennywallet-color-white )!important;
+}
+
+.text-center{
+	text-align: center;
+}
+.section_bg_primary_color{
+	background-color: var( -pennywallet-color-primary ) ;
+}
+
+
+
+
+/*
+######################
+	Login form
+######################
+*/
+.pennywallet_login_form_caption_wrapper h2{
+	display: inline-block;
+	border-bottom: 1px solid var( --pennywallet-color-black );
+}
+
+.woocommerce-account #customer_login {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+#customer_login ul#pennywallet_lost_password_link_list{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	column-gap: 10px;
+	justify-content: space-between;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.pennywallet_user_not_logged_in p.form-row.pennywallet_login_button_wrapper {
+    margin: 20px 10px;
+	text-align: center;
+}
+
+
+/*
+############################
+	Password reset form
+############################
+*/
+
+.pennywallet_user_not_logged_in .woocommerce form .form-row {
+    width: 100%;
+	text-align: center;
+}
+form.woocommerce-ResetPassword.lost_reset_password {
+    max-width: 450px;
+    margin: 80px auto;
+}
+#pennywallet_lost_password_link_list{
+	display: flex;
+	justify-content: space-between;
+}
+button.pennywallet_password_reset_submit.woocommerce-Button.button.wp-element-button {
+    margin: 20px 0px;
+}
+/*
+############################
+	Custom registration form
+############################
+*/
+
+.pennywallet_custom_registration_form_wrapper{
+	max-width: 500px;
+	margin: 50px auto;
+}
+.pennywallet_custom_registration_form_wrapper .pennywallet_form_caption{
+	text-align: center;
+}
+.pennywallet_custom_registration_form_wrapper input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #000;
+}
+.pennywallet_custom_registration_form_wrapper .form-row{
+	margin: 20px 0px;
+}
+.woocommerce-privacy-policy-text {
+    display: none;
+}
+.pennywallet_form_submit_button{
+	text-align: center;
+}
+
+
+/*
+############################
+   	 Account Dashboard
+############################
+*/
+
+
+.pennywallet_dashboard_landing_page{
+	margin: 30px 0px;
+}
+
+.pennywallet_dashboard_items_wrapper{
+	display: block;	
+}
+.pennywallet_dashboard_items_wrapper .dashboard_item {
+    width: 350px;
+    height: 180px;
+    background-color: var( --pennywallet-color-primary );
+    margin: 10px;
+    padding: 15px;
+    color: #fff;
+    float: left;
+	background: rgb(0,0,0);
+	background: linear-gradient(309deg, rgba(0,0,0,1) 0%, rgba(0,161,255,1) 100%); 
+}
+.pennywallet_dashboard_items_wrapper .dashboard_item_inner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard_item a.dashboard_item_url {
+	display: flex !important;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.dashboard_item .balance_caption{
+	color: #fff;
+	text-align: center;
+	font-size: 16px;
+}
+
+.pennywallet_total_balance{
+	text-align: center;
+	font-size: 30px;
+	color: #fff;
+}

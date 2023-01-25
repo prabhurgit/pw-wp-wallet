@@ -1,0 +1,53 @@
+@media( max-width:667px ){
+    
+    #customer_login ul#pennywallet_lost_password_link_list{
+        display: block;
+    }
+    .pennywallet_dashboard_items_wrapper .dashboard_item{
+        width: 100%;
+    }
+    .ast-container, .ast-container-fluid {
+        padding-left: 0px;
+        padding-right: 10px;
+    }
+
+}
+@media( min-width:769px ) {
+   .woocommerce-account .woocommerce-MyAccount-content, .woocommerce-account .woocommerce-MyAccount-navigation {
+       float: none;
+       width: 100%;
+   }
+	 .woocommerce-MyAccount-navigation ul {
+       text-align: center;
+   }
+   .woocommerce-MyAccount-navigation ul li {
+       display: inline-block;
+   }
+	.woocommerce-account .woocommerce-MyAccount-content, .woocommerce-account .woocommerce-MyAccount-navigation {
+       float: none;
+       width: 100%;
+   }
+ 
+   .woocommerce-MyAccount-navigation ul {
+       text-align: center;
+   } 
+   .woocommerce-MyAccount-navigation ul li {
+       display: inline-block;
+   }
+	.page-template-template-fullwidth-php .woocommerce-MyAccount-navigation, .page-template-template-fullwidth-php .woocommerce-MyAccount-content {
+      width: 100%;
+      float: none;
+   }
+ 
+   .woocommerce-MyAccount-navigation ul {
+      text-align: center;
+      border-bottom: 1px solid rgba(0,0,0,.05);
+   }
+ 
+   .woocommerce-MyAccount-navigation ul li {
+      display: inline-block;
+      border-left: 1px solid rgba(0,0,0,.05);
+      padding: 0 1em;
+      border-bottom: 0;
+   }
+}
